@@ -81,8 +81,8 @@ class _LoginPageState extends State<LoginPage> {
                                 color: Theme.of(context).primaryColor,
                               )),
                           validator: (val) {
-                            if (val!.length < 6) {
-                              return "Password must be at least 6 characters";
+                            if (val!.length < 8) {
+                              return "Password must be at least 8 characters";
                             } else {
                               return null;
                             }
@@ -156,7 +156,7 @@ class _LoginPageState extends State<LoginPage> {
           await HelperFunctions.saveUserLoggedInStatus(true);
           await HelperFunctions.saveUserEmailSF(email);
           await HelperFunctions.saveUserNameSF(snapshot.docs[0]['fullName']);
-          nextScreenReplace(context, const HomeScreen());
+          nextScreenReplace(context, HomeScreen());
         } else {
           showSnackbar(context, Colors.red, value);
           setState(() {

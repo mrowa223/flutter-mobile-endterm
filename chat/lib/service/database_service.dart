@@ -29,7 +29,6 @@ class DatabaseService {
       "fullName": fullName,
       "email": email,
       "groups": [],
-      "profilePic": "",
       "uid": uid,
     });
   }
