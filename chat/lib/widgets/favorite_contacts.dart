@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/* import 'package:flutter/material.dart';
 
 import 'package:chat/models/message_model.dart';
 import 'package:chat/screens/chat_screen.dart';
@@ -79,4 +79,4 @@ class FavoriteContacts extends StatelessWidget {
       ),
     );
   }
-}
+} */
