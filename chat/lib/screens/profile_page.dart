@@ -83,7 +83,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   builder: (context) {
                     return AlertDialog(
                       title: const Text("Logout"),
-                      content: const Text("Are you sure you want to logout?"),
+                      content: const Text("Are you sure?"),
                       actions: [
                         IconButton(
                           onPressed: () {
@@ -132,7 +132,7 @@ class _ProfilePageState extends State<ProfilePage> {
               color: Colors.grey[700],
             ),
             const SizedBox(
-              height: 15,
+              height: 25,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

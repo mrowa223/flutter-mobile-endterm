@@ -63,7 +63,7 @@ class _GroupInfoState extends State<GroupInfo> {
                       return AlertDialog(
                         title: const Text("Exit"),
                         content:
-                            const Text("Are you sure you exit the group? "),
+                            const Text("Are you sure? "),
                         actions: [
                           IconButton(
                             onPressed: () {

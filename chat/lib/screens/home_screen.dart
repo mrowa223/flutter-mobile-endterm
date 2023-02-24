@@ -12,7 +12,6 @@ import 'package:chat/widgets/group_tile.dart';
 import 'search_page.dart';
 import 'profile_page.dart';
 
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -63,9 +62,9 @@ class _HomePageState extends State<HomePage> {
       });
     });
   }
-  
+
   @override
-   Widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         actions: [
@@ -81,7 +80,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Theme.of(context).primaryColor,
         title: const Text(
-          "Groups",
+          "Chats",
           style: TextStyle(
               color: Colors.white, fontWeight: FontWeight.bold, fontSize: 27),
         ),
@@ -146,7 +145,7 @@ class _HomePageState extends State<HomePage> {
                   builder: (context) {
                     return AlertDialog(
                       title: const Text("Logout"),
-                      content: const Text("Are you sure you want to logout?"),
+                      content: const Text("Are you sure?"),
                       actions: [
                         IconButton(
                           onPressed: () {

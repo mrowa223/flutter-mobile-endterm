@@ -41,13 +41,13 @@ class _RegisterPageState extends State<RegisterPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         const Text(
-                          "Cha-Cha-Chat",
+                          "Registration",
                           style: TextStyle(
                               fontSize: 40, fontWeight: FontWeight.bold),
                         ),
-                        const SizedBox(height: 10),
+                        const SizedBox(height: 20),
                         const Text(
-                            "Create your account now to chat and explore",
+                            "Create your account and communicate with other!",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.w400)),
                         TextFormField(
